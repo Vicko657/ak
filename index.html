@@ -1,4 +1,199 @@
 <!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="kscss.css">
+  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/5a3a7fdc30.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://use.typekit.net/qjc4xqb.css">
+<link rel="stylesheet" href="https://use.typekit.net/cgm7mfp.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
+<script>
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+function mischandler(){
+return false;
+}
+function mousehandler(e){
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+</script>
+</head>
+
+<body>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!--<script type="text/javascript" src="js/script.js"></script>-->
+    <div id="main-body" class="main-body">
+      <div class="nav flex flex--space-between align-center">
+        <div class="lg flex flex--start align-start">
+          <a href="index.html"><div class="boxlogo">
+            VICTORIA OLUSEGUN
+        </div></a>
+        </div>
+        <div class="top flex align-center">
+        </div>
+        <div class=" flex flex--space-between align-end">
+          <div class="cm">
+            <a class="" href="index.html">WORK</a>
+          </div>
+          <div class="mi">
+            <a class="r2" href="about.html">About</a>
+          </div>
+          <div class="cm">
+            <a href="mailto:victoriaolusegun@googlemail.com?Subject=From%20Website">Contact</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="openNav()">
+            <div class="bar"></div>
+            <div class="bar" style="margin-bottom: 0px;"></div>
+          </a>
+        </div>
+      </div>
+
+      <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html">Work</a>
+    <a href="about.html">About</a>
+    <a href="mailto:victoriaolusegun@googlemail.com?Subject=From%20Website">Contact</a>
+  </div>
+</div>
+
+      <section class="back">
+      	<div class="flex flex--space-around flex align-center">
+
+          <div id="web"class="websec flex flex--space-around align-center columns">
+            <div class="boxo1">
+            </div>
+            <br>
+
+            <div class="flex flex--space-around rows">
+              <div class="wholesection">
+                <a href="eigen.html"><div>
+                <img class="poo"src="imgs/porteigen.jpg" alt="img">
+              </div></a>
+              </div>
+
+              <div class="wholesection">
+                <a href="mimoempire.html"><div>
+                <img class="poo"src="imgs/portmimo2.jpg" alt="img">
+              </div></a>
+              </div>
+            </div>
+
+            <div class="flex flex--space-around rows">
+              <div class="wholesection">
+                <a href="tfc.html"><div>
+                <img class="poo"src="imgs/porttfc.jpg" alt="img">
+              </div></a>
+              </div>
+
+              <div class="wholesection">
+                <a href="otn.html"><div>
+                <img class="poo"src="imgs/portotn.jpg" alt="img">
+              </div></a>
+              </div>
+            </div>
+
+            <div class="flex flex--space-around rows">
+              <div class="wholesection">
+                <a href="outset.html"><div>
+                <img class="poo" src="imgs/outsetnewimg-01.jpg" alt="img">
+              </div></a>
+              </div>
+              <div class="wholesection">
+                <a href="nn.html"><div>
+                <img class="poo dv" src="imgs/nn.png" alt="img">
+              </div></a>
+              </div>
+            </div>
+
+            <div class="flex flex--space-around rows">
+              <div class="wholesection">
+                <a href="pure.html"><div>
+                <img class="poo dv"src="imgs/pure-09.png" alt="img" >
+              </div></a>
+              </div>
+              <div class="wholesection">
+                <a href="digitalexperience.html"><div>
+                <img class="poo"src="imgs/drive-09.png" alt="img">
+              </div></a>
+              </div>
+
+
+            </div>
+            <div class="flex flex--space-around rows">
+
+                <div class="wholesection">
+                    <a href="killsmoking.html"><div>
+                  <img class="aik1"src="imgs/ks-09.png" alt="img"></a>
+                </div>
+                </div>
+
+                <div class="wholesection">
+                  <a href="retreatleaflet.html"><div>
+                  <img class="aik1"src="imgs/inhispresence-09.png" alt="img">
+                </div></a>
+                </div>
+
+            </div>
+
+          </div>
+
+</div>
+
+</section>
+<section class="">
+  <div class="flex flex--space-around flex align-center">
+
+    <div id="ux"class="websec flex flex--space-around align-center columns">
+    <div class="boxo2">
+  </div>
+
+      <div class="flex flex--space-around rows">
+        <div class="wholesection">
+          <a href="3danimation.html"><div>
+          <img class="vy1"src="imgs/animationlogo-09.png" alt="img">
+        </div></a>
+        </div>
+        <div class="wholesection">
+        <a href="vb.html"><div class="imageofdesign">
+        <img class="food1"src="imgs/vb-09.png" alt="img">
+      </div></a>
+          </p>
+      </div>
+
+</div>
+</section>
+  </div>
+<footer class="flex flex--space-around align-center"style="padding:20px;">
+  <div class="boxlogo">
+    <p>&#169; 2021 VICTORIA OLUSEGUN</p>
+  </div>
+</footer>
+
+          <script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -20,58 +215,20 @@
   <script type="text/javascript" src="js/script.js"></script>
 
 
-<section class="enter-site flex flex--center align-center columns" id="window">
-
-<div class="en flex flex--center align-center columns">
-<img  class="lg"src="images/biglogo2.png" alt="lo"></img>
-<p class="flex flex--center align-center columns">Aisha's Kitchen</p>
-<div class="lockup flex flex--center align-center columns">
-  <div class="button flex flex--center align-center" id="enter"><span>Enter Kitchen</span></div>
-</div>
-<a class="flex flex-space-around align--center"href="mailto:aishaskitchen@mail.com?Subject=Order%20Enquiry"><h1 class="emaila">aishaskitchen@mail.com</h1></a>
-</div>
-</section>
-
- <div id="main-body"class="main-body">
-
-        <div class="top_header flex flex--space-between align-center rows">
-          <div class="ak_name flex flex-start align-start rows">
-            <h1>Aisha's Kitchen</h1>
-          </div>
-
-        <div class="circle flex flex--end align-end rows">
-        <a href=""><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></a>
-        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        </div>
-      </div>
+ <div class="main-body">
 
         <div id="lu" class="fixed_nav flex flex--space-around align-center rows">
-          <div id="mtn" class="link flex flex--center align-center rows">
-          <a href="" class="nav"><span>Home</span></a>
-          <a href="#about" style="border-right:none;" class="nav"><span>ABOUT</span></a>
-          <img src="images/NEWLOGO.png" class="lg"></img>
-          <a id="myBtn" class="nav"><span>CONTACT</span></a>
-          <div id="myModal" class="modal">
-
-            <div class="modal-content flex flex--center align-center columns">
-              <span class="close">&times;</span>
-              <h1>GET IN TOUCH</h1>
-              <p>aishaskitchen@mail.com</p>
-              <p>0000-000-000</p>
-              <div class="iconm flex flex--center align-center rows">
-              <a href=""><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></a>
-              <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </div>
-            </div>
-
+          <div id="mtn" class="link flex flex--start align-start rows">
+            <img src="images/aklogonew.png" class="lg"></img>
           </div>
-
-          <a href="#yellow" style="border-right:none;" class="nav"><span >MENU</span></a>
-
-
+          <div class="flex flex--end align-end ">
+            <a href="" class="nav"><span>Home</span></a>
+            <a href="#yellow" style="border-right:none;" class="nav"><span >MENU</span></a>
+            <a href="#about" style="border-right:none;" class="nav"><span>ABOUT</span></a>
+            <a id="myBtn" class="nav"><span>CONTACT</span></a>
+          </div>
         </div>
+
         <div id="mySidenav" class="sidenav flex flex--center align-center columns ">
 
           <a href="javascript:void(0)" class="closebtn flex flex--center align-center columns" onclick="closeNav()">&times;</a>
@@ -292,9 +449,6 @@ document.getElementById("defaultOpen").click();
 
   </div>
     </footer></a>
-    <footer class="vyco flex flex--center align-center ">
-      <p>DEVELOPED BY <span>vyco</span></p>
-    </footer>
 </div>
 </body>
 </html>
